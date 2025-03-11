@@ -4,10 +4,10 @@
 # Support your local low-tech magazine: https://solar.lowtechmagazine.com/donate/
 
 now=`date`
-baseURL="" #the URL of the website e.g. htttps://solar.lowtechmagazine.com/
-contentDir="" #the directory where your HUGO articles are e.g. /path/to/repo/solar_v2/content/
-repoDir="" #the full path to the repository
-outputDir="" # the directory where you export the site to.
+baseURL="htttps://solar.heliopedia.io/" #the URL of the website e.g. htttps://solar.lowtechmagazine.com/
+contentDir="/Users/matthieucomoy/Documents/code/heliopedia/content" #the directory where your HUGO articles are e.g. /path/to/repo/solar_v2/content/
+repoDir="/Users/matthieucomoy/Documents/code/heliopedia/solar_v2" #the full path to the repository
+outputDir="/Users/matthieucomoy/Documents/code/heliopedia/heliopedia-website" # the directory where you export the site to.
 
 
 while getopts f flag
